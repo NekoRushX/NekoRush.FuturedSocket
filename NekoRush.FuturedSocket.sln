@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NekoRush.FuturedSocket", "NekoRush.FuturedSocket\NekoRush.FuturedSocket.csproj", "{CF5F67C7-E71E-4F7C-9A86-3AA03A91F8B2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NekoRush.FuturedSocket.Test", "NekoRush.FuturedSocket.Test\NekoRush.FuturedSocket.Test.csproj", "{48F3DE70-7DCB-4877-B166-699B9254A9B9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{CF5F67C7-E71E-4F7C-9A86-3AA03A91F8B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF5F67C7-E71E-4F7C-9A86-3AA03A91F8B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF5F67C7-E71E-4F7C-9A86-3AA03A91F8B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48F3DE70-7DCB-4877-B166-699B9254A9B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48F3DE70-7DCB-4877-B166-699B9254A9B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48F3DE70-7DCB-4877-B166-699B9254A9B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48F3DE70-7DCB-4877-B166-699B9254A9B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
