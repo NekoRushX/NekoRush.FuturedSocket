@@ -33,7 +33,11 @@ public class FuturedSocket : IDisposable
     public FuturedSocket(AddressFamily family, SocketType type, ProtocolType protocol)
         => InnerSocket = new(family, type, protocol);
 
-    private FuturedSocket(Socket socket)
+    /// <summary>
+    /// Create a new instance from legacy <see cref="Socket"/>
+    /// </summary>
+    /// <param name="socket">Socket</param>
+    public FuturedSocket(Socket socket)
         => InnerSocket = socket;
 
     public void Dispose()

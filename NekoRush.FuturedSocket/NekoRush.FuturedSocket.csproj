@@ -5,11 +5,24 @@
         <TargetFrameworks>net5.0;net6.0;netstandard2.0;netstandard2.1</TargetFrameworks>
         <ImplicitUsings>enable</ImplicitUsings>
     </PropertyGroup>
+    
+    <PropertyGroup>
+        <Title>NekoRush.FuturedSocket</Title>
+        <Authors>NekoRush Software Studio</Authors>
+        <Copyright>NekoRush Software Studio</Copyright>
+        <PackageVersion>0.1.0</PackageVersion>
+        <Description>This is a pure async/await socket wrapper based on the legacy socket.</Description>
+        <PackageProjectUrl>https://github.com/NekoRushX/NekoRush.FuturedSocket</PackageProjectUrl>
+        <PackageLicenseUrl>https://github.com/NekoRushX/NekoRush.FuturedSocket/blob/main/LICENSE</PackageLicenseUrl>
+        <RepositoryUrl>https://github.com/NekoRushX/NekoRush.FuturedSocket</RepositoryUrl>
+        <RepositoryType>GitHub</RepositoryType>
+        <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    </PropertyGroup>
 
     <!-- Files -->
     <ItemGroup>
-        <None Include="..\README.md" Pack="true" PackagePath="" />
-        <None Include="..\LICENSE" Pack="true" PackagePath="" />
+        <None Include="..\README.md" Pack="true" PackagePath=""/>
+        <None Include="..\LICENSE" Pack="true" PackagePath=""/>
     </ItemGroup>
-    
+
 </Project>
